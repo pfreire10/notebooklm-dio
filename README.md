@@ -3,10 +3,13 @@ Projeto desenvolvido como parte do desafio da DIO sobre o uso do notebooklm como
 
 ## Contexto e Objetivos
 
-**Assunto escolhido:** Linguagem de Programação C++
+**Assunto escolhido:** Fundamentos e conceitos intermediários da linguagem C++
 
 **Por que esse tema?**
-O tema escolhido foi esse por conta de certas influências, como a faculdade e curso técnico, onde nas aulas a principal linguagem de programação usada foi C++.
+C++ é uma linguagem que já uso em projetos pessoais, na faculadade e no curso técnico que faço, porém, alguns tópicos, como gerenciamento de memória, são bem desafiadores.
 
 **Objetivos de estudo:**
-- Objetivo 1: Ser capaz de entender 
+- [ ] Objetivo 1: Ser capaz de entender ponteiros, referência e gerenciamento de memória.
+- Compreender os pilares de orientação a objetos em C++.
+- Conhecer os principais recursos do STL (Standard Template Library).
+
