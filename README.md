@@ -43,10 +43,10 @@ Fontes selecionadas e carregadas no notebook:
 
 **Resposta (resumida):**
 > A IA respondeu que a POO em C++ gira em torno de classes, organizando-se e explicando os seguintes pilares e conceitos:
-> Encapsulamento e ocultamento de dados (Encapsulating/Data Hiding)
-> Abstração de tipos (Abstract Types)
-> Herança (Inheritance)
-> Polimorfismo (Polymorphism)
+> 1. Encapsulamento e ocultamento de dados (Encapsulating/Data Hiding)
+> 2. Abstração de tipos (Abstract Types)
+> 3. Herança (Inheritance)
+> 4. Polimorfismo (Polymorphism)
 
 ---
 
@@ -90,11 +90,11 @@ A STL é dividida em containers (`vector`, `list`, `map`, `set`), iteradores (qu
 ### 🔹 Prompts Reutilizáveis para Revisão
 
 \```
-"Explique [conceito de C++] com um exemplo de código comentado."
-"Compare [feature A] e [feature B] em C++, com prós e contras de cada um."
-"Quais erros comuns cometem iniciantes ao usar [tópico]? Cite exemplos de código incorreto e correto."
-"Quais os principais métodos e casos de uso do container [nome do container] da STL?"
-"Crie 5 perguntas de revisão sobre [tópico] em nível [coloce o nível], com respostas comentadas."
+1. "Explique [conceito de C++] com um exemplo de código comentado."
+2. "Compare [feature A] e [feature B] em C++, com prós e contras de cada um."
+3. "Quais erros comuns cometem iniciantes ao usar [tópico]? Cite exemplos de código incorreto e correto."
+4. "Quais os principais métodos e casos de uso do container [nome do container] da STL?"
+5. "Crie 5 perguntas de revisão sobre [tópico] em nível [coloce o nível], com respostas comentadas."
 \```
 
 ---
