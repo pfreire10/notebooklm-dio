@@ -99,9 +99,9 @@ A STL é dividida em containers (`vector`, `list`, `map`, `set`), iteradores (qu
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## Ferramentas Utilizadas
 - [NotebookLM](https://notebooklm.google.com/)
 - cppreference.com, isocpp.org, learncpp.com, gcc.gnu.org, A Tour Of C++ como fontes de curadoria
 
-## 📌 Como Usar Este Repositório
+## Como Usar Este Repositório
 Este repositório documenta meu processo de estudo sobre C++ com apoio de IA. Sinta-se livre para explorar as fontes utilizadas, os prompts testados (incluindo os ajustes que fiz até obter boas respostas) e o miniguia final consolidado na seção acima.
