@@ -35,9 +35,73 @@ Fontes selecionadas e carregadas no notebook:
 **Resposta (resumida):**
 > A IA respondeu que as principais diferenças entre ponteiros e referências são: sintaxe de acesso, reatribuição, representação de ausência de objeto e passagem de parâmetros, explicando de forma não muito aprofundada cada uma das coisas, além de dar os exemplos que pedi.
 
+---
+
 ### Prompt 2
 **Pergunta:**
 > "Quais os pilares da programação orientada a objetos em C++?"
 
 **Resposta (resumida):**
-> A IA
+> A IA respondeu que a POO em C++ gira em torno de classes, organizando-se e explicando os seguintes pilares e conceitos:
+> Encapsulamento e ocultamento de dados (Encapsulating/Data Hiding)
+> Abstração de tipos (Abstract Types)
+> Herança (Inheritance)
+> Polimorfismo (Polymorphism)
+
+---
+
+### Prompt 3
+**Pergunta:**
+> Quais os principais recursos do STL (Standard Template Library)
+
+**Resposta (resumida):**
+> A IA respondeu que a STL é uma estrutura genérica e extensível da biblioteca padrão do C++ projetada para conectar estruturas de dados a algoritmos de forma eficiente por meio de iteradores.
+> Organizando-se em cinco componentes (ela explicou detlhadamente cada um deles):
+> 1. Contêineres (Containers)
+> 2. Iteradores (Iterators)
+> 3. Algoritmos Genéricos (Algorithms)
+
+---
+
+## Miniguia de Estudo (Entrega Final)
+
+### 🔹 Resumo Estruturado
+
+**Ponteiros e Referências**
+Ponteiros são variáveis que guardam endereços de memória, oferecendo flexibilidade (podem ser reatribuídos, aceitam `nullptr`) mas exigindo cuidado manual. Referências são "apelidos" para uma variável já existente, vinculadas permanentemente na inicialização, podem ser mais seguras, porém são flexíveis.
+
+**Orientação a Objetos**
+C++ segue os quatro pilares clássicos: encapsulamento (`public`/`private`/`protected`), herança (reaproveitamento de código entre classes), polimorfismo (via funções `virtual`) e abstração (classes abstratas e interfaces).
+
+**Standard Template Library (STL)**
+A STL é dividida em containers (`vector`, `list`, `map`, `set`), iteradores (que percorrem os containers de forma uniforme) e algoritmos genéricos (`sort`, `find`, `accumulate`), todos construídos com templates para funcionar com qualquer tipo de dado.
+
+### 🔹 Glossário
+
+| Termo | Definição |
+|-------|-----------|
+| Ponteiro | Variável que armazena o endereço de memória de outra variável |
+| Referência | Um "apelido" vinculado permanentemente a uma variável já existente |
+| Encapsulamento | Ocultar os detalhes internos de uma classe, expondo apenas o necessário |
+| Polimorfismo | Capacidade de um objeto se comportar de formas diferentes dependendo do contexto, geralmente via funções `virtual` |
+| Container (STL) | Estrutura de dados genérica da STL, como `vector`, `map` ou `set` |
+| Iterador | Objeto que permite percorrer os elementos de um container de forma uniforme |
+
+### 🔹 Prompts Reutilizáveis para Revisão
+
+\```
+"Explique [conceito de C++] com um exemplo de código comentado."
+"Compare [feature A] e [feature B] em C++, com prós e contras de cada um."
+"Quais erros comuns cometem iniciantes ao usar [tópico]? Cite exemplos de código incorreto e correto."
+"Quais os principais métodos e casos de uso do container [nome do container] da STL?"
+"Crie 5 perguntas de revisão sobre [tópico] em nível [coloce o nível], com respostas comentadas."
+\```
+
+---
+
+## 🛠️ Ferramentas Utilizadas
+- [NotebookLM](https://notebooklm.google.com/)
+- cppreference.com, isocpp.org, learncpp.com, gcc.gnu.org, A Tour Of C++ como fontes de curadoria
+
+## 📌 Como Usar Este Repositório
+Este repositório documenta meu processo de estudo sobre C++ com apoio de IA. Sinta-se livre para explorar as fontes utilizadas, os prompts testados (incluindo os ajustes que fiz até obter boas respostas) e o miniguia final consolidado na seção acima.
