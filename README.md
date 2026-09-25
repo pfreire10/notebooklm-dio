@@ -17,9 +17,13 @@ C++ é uma linguagem que já uso em projetos pessoais, na faculadade e no curso 
 Fontes selecionadas e carregadas no notebook:
 
 | 1 | cppreference.com — Pointers, References, Classes | Documentação oficial | https://en.cppreference.com/ |
+
 | 2 | ISO C++ FAQ | Artigo | https://isocpp.org/faq |
+
 | 3 | Learn C++ — capítulos sobre POO e memória dinâmica | Artigo/texto | https://www.learncpp.com/ |
+
 | 4 | GCC — C++ Standards Support | Documentação oficial | https://gcc.gnu.org/projects/cxx-status.html |
+
 | 5 | A Tour of C++ (capítulos de amostra) | PDF | site do autor/editora |
 
 ## Engenharia de prompt e "cicatrizes"
